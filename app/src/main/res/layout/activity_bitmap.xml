@@ -24,5 +24,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/button"
+        android:textColor="@drawable/statetext"
         style="@style/Widget.AppCompat.Button.Colored" />
 </RelativeLayout>

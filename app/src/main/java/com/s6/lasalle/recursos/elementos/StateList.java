@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.s6.lasalle.recursos.R;
 
@@ -16,6 +17,17 @@ public class StateList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_statelist);
 
+        /** BUTTON STATE LIST **/
+
+        Button btstate = (Button) findViewById(R.id.stlist);
+
+        btstate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast toast = Toast.makeText(getApplicationContext(), "Se cambia el fondo por una imagen", Toast.LENGTH_SHORT);
+                toast.show();
+            }
+        });
 
 
         /** BUTTON **/
