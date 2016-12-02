@@ -17,7 +17,9 @@
         </activity>
         <activity android:name=".elementos.Bitmap_r" />
         <activity android:name=".elementos.NinePatch" />
-        <activity android:name=".elementos.LayerList"></activity>
+        <activity android:name=".elementos.LayerList" />
+        <activity android:name=".elementos.StateList" />
+        <activity android:name=".elementos.LevelList"></activity>
     </application>
 
 </manifest>

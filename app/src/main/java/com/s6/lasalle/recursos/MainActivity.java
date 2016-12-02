@@ -15,7 +15,9 @@ import android.widget.Toast;
 
 import com.s6.lasalle.recursos.elementos.Bitmap_r;
 import com.s6.lasalle.recursos.elementos.LayerList;
+import com.s6.lasalle.recursos.elementos.LevelList;
 import com.s6.lasalle.recursos.elementos.NinePatch;
+import com.s6.lasalle.recursos.elementos.StateList;
 
 import java.util.ArrayList;
 
@@ -65,6 +67,12 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(intent);
                 }else if(position==2){
                     Intent intent = new Intent(getApplicationContext(), LayerList.class);
+                    startActivity(intent);
+                }else if(position==3){
+                    Intent intent = new Intent(getApplicationContext(), StateList.class);
+                    startActivity(intent);
+                }else if(position==4){
+                    Intent intent = new Intent(getApplicationContext(), LevelList.class);
                     startActivity(intent);
                 }
             }
