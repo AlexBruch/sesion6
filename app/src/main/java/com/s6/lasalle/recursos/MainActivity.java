@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.s6.lasalle.recursos.elementos.Bitmap_r;
+import com.s6.lasalle.recursos.elementos.NinePatch;
 
 import java.util.ArrayList;
 
@@ -57,6 +58,9 @@ public class MainActivity extends AppCompatActivity {
                 toast1.show();
                 if(position==0){
                     Intent intent = new Intent(getApplicationContext(), Bitmap_r.class);
+                    startActivity(intent);
+                }else if(position==1){
+                    Intent intent = new Intent(getApplicationContext(), NinePatch.class);
                     startActivity(intent);
                 }
             }

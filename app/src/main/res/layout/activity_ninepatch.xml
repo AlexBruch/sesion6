@@ -10,9 +10,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.s6.lasalle.recursos.elementos.NinePatch">
 
-    <!-- <nine-patch xmlns:android="http://schemas.android.com/apk/res/android"
-       android:src="@[package:]drawable/button.9.png"
-      android:dither= ["true" | "false"]
-    />-->
-
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editText"
+        android:textSize="20sp"
+        android:background="@drawable/selector"/>
 </RelativeLayout>
