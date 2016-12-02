@@ -16,4 +16,13 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:id="@+id/imageView" />
+
+    <Button
+        android:text="@string/close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored" />
 </RelativeLayout>
