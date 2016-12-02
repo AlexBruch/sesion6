@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".elementos.Bitmap_r" />
-        <activity android:name=".elementos.NinePatch"></activity>
+        <activity android:name=".elementos.NinePatch" />
+        <activity android:name=".elementos.LayerList"></activity>
     </application>
 
 </manifest>
