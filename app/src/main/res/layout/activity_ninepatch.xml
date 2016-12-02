@@ -18,6 +18,7 @@
         android:layout_alignParentStart="true"
         android:id="@+id/editText"
         android:textSize="20sp"
+        android:textColor="#fff"
         android:background="@drawable/selector"/>
     <Button
         android:text="@string/close"

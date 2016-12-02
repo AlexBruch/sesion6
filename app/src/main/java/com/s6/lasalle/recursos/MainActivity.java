@@ -40,9 +40,9 @@ public class MainActivity extends AppCompatActivity {
 
         listaRecursos = new ArrayList<>();
         listaRecursos.add(new Recurso("Bitmap", "Visualización de una imagen PNG"));
-        listaRecursos.add(new Recurso("Nine-patch files", "Este recurso hace..."));
-        listaRecursos.add(new Recurso("Layer list", "Este recurso hace..."));
-        listaRecursos.add(new Recurso("State list", "Este recurso hace..."));
+        listaRecursos.add(new Recurso("Nine-patch files", "Adapta imagen en elementos"));
+        listaRecursos.add(new Recurso("Layer list", "Drawable de distintos recursos"));
+        listaRecursos.add(new Recurso("State list", "Cambio de estado"));
         listaRecursos.add(new Recurso("Level list", "Este recurso hace..."));
         listaRecursos.add(new Recurso("Transition drawable", "Este recurso hace..."));
         listaRecursos.add(new Recurso("Inset drawable", "Este recurso hace..."));
