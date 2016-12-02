@@ -4,7 +4,7 @@
         <bitmap android:src="@drawable/bcn"
             android:gravity="center" />
     </item>
-    <item android:top="20dp" android:left="20dp">
+    <item android:top="80dp" android:left="80dp">
         <bitmap android:src="@drawable/girona"
             android:gravity="center" />
     </item>
