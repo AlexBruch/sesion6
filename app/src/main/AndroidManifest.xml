@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".elementos.Bitmap_r"></activity>
+        <activity android:name=".elementos.Bitmap_r" />
+        <activity android:name=".elementos.NinePatch"></activity>
     </application>
 
 </manifest>
