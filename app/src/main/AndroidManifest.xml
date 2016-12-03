@@ -19,7 +19,12 @@
         <activity android:name=".elementos.NinePatch" />
         <activity android:name=".elementos.LayerList" />
         <activity android:name=".elementos.StateList" />
-        <activity android:name=".elementos.LevelList"></activity>
+        <activity android:name=".elementos.LevelList" />
+        <activity android:name=".elementos.Transition" />
+        <activity android:name=".elementos.InsetDrawable" />
+        <activity android:name=".elementos.Clip" />
+        <activity android:name=".elementos.Scale" />
+        <activity android:name=".elementos.Shape"></activity>
     </application>
 
 </manifest>

@@ -1,41 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_levellist"
+    android:id="@+id/activity_scale"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.s6.lasalle.recursos.elementos.LevelList">
+    tools:context="com.s6.lasalle.recursos.elementos.Scale">
 
     <Button
         android:text="@string/close"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button"
         android:textColor="@drawable/statetext"
         style="@style/Widget.AppCompat.Button.Colored" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:background="@drawable/levellist"
-        android:id="@+id/imageView" />
-
-    <Button
-        android:text="@string/setlevel"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView"
-        android:layout_alignParentStart="true"
-        android:id="@+id/setlvl"
-        style="@style/Widget.AppCompat.Button.Colored"/>
+        android:src="@drawable/scale" />
 
 </RelativeLayout>

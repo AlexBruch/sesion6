@@ -14,10 +14,15 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.s6.lasalle.recursos.elementos.Bitmap_r;
+import com.s6.lasalle.recursos.elementos.Clip;
+import com.s6.lasalle.recursos.elementos.InsetDrawable;
 import com.s6.lasalle.recursos.elementos.LayerList;
 import com.s6.lasalle.recursos.elementos.LevelList;
 import com.s6.lasalle.recursos.elementos.NinePatch;
+import com.s6.lasalle.recursos.elementos.Scale;
+import com.s6.lasalle.recursos.elementos.Shape;
 import com.s6.lasalle.recursos.elementos.StateList;
+import com.s6.lasalle.recursos.elementos.Transition;
 
 import java.util.ArrayList;
 
@@ -39,16 +44,16 @@ public class MainActivity extends AppCompatActivity {
         List.setHasFixedSize(true);
 
         listaRecursos = new ArrayList<>();
-        listaRecursos.add(new Recurso("Bitmap", "Visualización de una imagen PNG"));
-        listaRecursos.add(new Recurso("Nine-patch files", "Adapta imagen en elementos"));
-        listaRecursos.add(new Recurso("Layer list", "Drawable de distintos recursos"));
-        listaRecursos.add(new Recurso("State list", "Cambio de estado"));
-        listaRecursos.add(new Recurso("Level list", "Este recurso hace..."));
-        listaRecursos.add(new Recurso("Transition drawable", "Este recurso hace..."));
-        listaRecursos.add(new Recurso("Inset drawable", "Este recurso hace..."));
-        listaRecursos.add(new Recurso("Clip drawable", "Este recurso hace..."));
-        listaRecursos.add(new Recurso("Scale drawable", "Este recurso hace..."));
-        listaRecursos.add(new Recurso("Shape drawable", "Este recurso hace..."));
+        listaRecursos.add(new Recurso("Bitmap", getString(R.string.bitmap)));
+        listaRecursos.add(new Recurso("Nine-patch files", getString(R.string.NinePatch)));
+        listaRecursos.add(new Recurso("Layer list", getString(R.string.LayerList)));
+        listaRecursos.add(new Recurso("State list", getString(R.string.StateList)));
+        listaRecursos.add(new Recurso("Level list", getString(R.string.LevelList)));
+        listaRecursos.add(new Recurso("Transition drawable", getString(R.string.Transition)));
+        listaRecursos.add(new Recurso("Inset drawable", getString(R.string.Inset)));
+        listaRecursos.add(new Recurso("Clip drawable", getString(R.string.Clip)));
+        listaRecursos.add(new Recurso("Scale drawable", getString(R.string.Scale)));
+        listaRecursos.add(new Recurso("Shape drawable", getString(R.string.Shape)));
 
         Adapter adapter = new Adapter(listaRecursos);
 
@@ -73,6 +78,21 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(intent);
                 }else if(position==4){
                     Intent intent = new Intent(getApplicationContext(), LevelList.class);
+                    startActivity(intent);
+                }else if(position==5){
+                    Intent intent = new Intent(getApplicationContext(), Transition.class);
+                    startActivity(intent);
+                }else if(position==6){
+                    Intent intent = new Intent(getApplicationContext(), InsetDrawable.class);
+                    startActivity(intent);
+                }else if(position==7){
+                    Intent intent = new Intent(getApplicationContext(), Clip.class);
+                    startActivity(intent);
+                }else if(position==8){
+                    Intent intent = new Intent(getApplicationContext(), Scale.class);
+                    startActivity(intent);
+                }else if(position==9){
+                    Intent intent = new Intent(getApplicationContext(), Shape.class);
                     startActivity(intent);
                 }
             }

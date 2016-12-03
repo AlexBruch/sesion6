@@ -5,5 +5,16 @@
     <string name="close">Cerrar</string>
     <string name="accept">Aceptar</string>
     <string name="cancel">Cancelar</string>
+    <string name="setlevel">Cambiar nivel</string>
+    <string name="bitmap">Visualización de una imagen PNG</string>
+    <string name="NinePatch">Adapta imagen en elementos</string>
+    <string name="LayerList">Drawable de distintos recursos</string>
+    <string name="StateList">Cambio de estado</string>
+    <string name="LevelList">Distintos niveles de drawable</string>
+    <string name="Transition">Transición drawable</string>
+    <string name="Inset">Margen contenedor-recurso</string>
+    <string name="Clip">Imagen recortada</string>
+    <string name="Scale">Escalar imagen</string>
+    <string name="Shape">Degradado</string>
 
 </resources>
