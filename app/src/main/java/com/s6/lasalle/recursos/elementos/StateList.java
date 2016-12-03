@@ -24,7 +24,7 @@ public class StateList extends AppCompatActivity {
         btstate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast toast = Toast.makeText(getApplicationContext(), "Se cambia el fondo por una imagen", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), getString(R.string.toasstate), Toast.LENGTH_SHORT);
                 toast.show();
             }
         });

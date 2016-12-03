@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(View v, int position) {
                 Recurso recurso = listaRecursos.get(position);
 
-                Toast toast1 = Toast.makeText(getApplicationContext(), "Has seleccionado "+ recurso.getName(), Toast.LENGTH_SHORT);
+                Toast toast1 = Toast.makeText(getApplicationContext(), getString(R.string.toas1) + recurso.getName(), Toast.LENGTH_SHORT);
                 toast1.show();
                 if(position==0){
                     Intent intent = new Intent(getApplicationContext(), Bitmap_r.class);
