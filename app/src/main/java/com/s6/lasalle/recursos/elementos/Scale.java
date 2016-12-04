@@ -1,11 +1,17 @@
 package com.s6.lasalle.recursos.elementos;
 
 import android.content.DialogInterface;
+import android.content.res.Resources;
+import android.graphics.drawable.Drawable;
+import android.graphics.drawable.LayerDrawable;
+import android.graphics.drawable.ScaleDrawable;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Gallery;
+import android.widget.ImageView;
 
 import com.s6.lasalle.recursos.R;
 
@@ -15,6 +21,7 @@ public class Scale extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scale);
+
 
         /** BUTTON **/
 

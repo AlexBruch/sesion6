@@ -16,7 +16,7 @@
     <string name="Clip">Cropped image</string>
     <string name="Scale">Scale image</string>
     <string name="Shape">A shape of colors</string>
-    <string name="toas1">You have selected </string>
+    <string name="toas1">You have selected</string>
     <string name="toasstate">Change the background for an image</string>
 
 </resources>

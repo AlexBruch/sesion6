@@ -20,7 +20,7 @@ public class Transition extends AppCompatActivity {
 
         ImageButton imageButton = (ImageButton) findViewById(R.id.imagebutton);
         TransitionDrawable drawable = (TransitionDrawable) imageButton.getDrawable();
-        drawable.startTransition(1000);
+        drawable.startTransition(2000);
 
         /** BUTTON **/
 

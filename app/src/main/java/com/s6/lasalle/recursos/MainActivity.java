@@ -25,6 +25,7 @@ import com.s6.lasalle.recursos.elementos.StateList;
 import com.s6.lasalle.recursos.elementos.Transition;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         recursos();
+        //Locale.getDefault();
+        //Locale.getDefault().getDisplayLanguage();
+        //Locale.setDefault(Locale.ENGLISH);
     }
 
     public void recursos() {
@@ -62,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(View v, int position) {
                 Recurso recurso = listaRecursos.get(position);
 
-                Toast toast1 = Toast.makeText(getApplicationContext(), getString(R.string.toas1) + recurso.getName(), Toast.LENGTH_SHORT);
+                Toast toast1 = Toast.makeText(getApplicationContext(), getString(R.string.toas1) +" "+ recurso.getName(), Toast.LENGTH_SHORT);
                 toast1.show();
                 if(position==0){
                     Intent intent = new Intent(getApplicationContext(), Bitmap_r.class);
