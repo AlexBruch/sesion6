@@ -47,6 +47,7 @@ public class Bitmap_r extends AppCompatActivity {
                 });
 
                 AlertDialog dialog = builder.create();
+                dialog.getWindow().getAttributes().windowAnimations = R.style.dialog_animation;
                 dialog.show();
             }
         });
