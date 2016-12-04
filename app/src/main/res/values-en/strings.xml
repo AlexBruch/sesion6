@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Resources</string>
+    <string name="alert_dialog_title">Confirmation</string>
+    <string name="alert_dialog_details">Do you want to go back?</string>
+    <string name="close">Close</string>
+    <string name="accept">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="setlevel">Change level</string>
+    <string name="bitmap">PNG image display</string>
+    <string name="NinePatch">Adapt image in elements</string>
+    <string name="LayerList">Drawable of different resourses</string>
+    <string name="StateList">State change</string>
+    <string name="LevelList">Different level of drawables</string>
+    <string name="Transition">Drawable transition</string>
+    <string name="Inset">Container-resourse margin</string>
+    <string name="Clip">Cropped image</string>
+    <string name="Scale">Scale image</string>
+    <string name="Shape">A shape of colors</string>
+    <string name="toas1">You have selected</string>
+    <string name="toasstate">Change the background for an image</string>
+</resources>

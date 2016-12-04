@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recursos</string>
+    <string name="alert_dialog_title">Confirmació</string>
+    <string name="alert_dialog_details">Anar enrere?</string>
+    <string name="close">Tancar</string>
+    <string name="accept">Acceptar</string>
+    <string name="cancel">Cancel·lar</string>
+    <string name="setlevel">Canviar nivell</string>
+    <string name="bitmap">Visualització d'una imatge PNG</string>
+    <string name="NinePatch">Adapta imatges amb elements</string>
+    <string name="LayerList">Drawable de diferents recursos</string>
+    <string name="StateList">Canvi d'estat</string>
+    <string name="LevelList">Diferents nivells de drawable</string>
+    <string name="Transition">Transició drawable</string>
+    <string name="Inset">Marge contenidor-recurs</string>
+    <string name="Clip">Imatge tallada</string>
+    <string name="Scale">Escalar imatge</string>
+    <string name="Shape">Degradat</string>
+    <string name="toas1">Has seleccionat </string>
+    <string name="toasstate">Es canvia el fons per una imatge</string>
+</resources>

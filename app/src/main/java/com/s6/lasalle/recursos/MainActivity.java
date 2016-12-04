@@ -38,9 +38,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         recursos();
-        //Locale.getDefault();
-        //Locale.getDefault().getDisplayLanguage();
-        //Locale.setDefault(Locale.ENGLISH);
+        Locale.getDefault();
+        Locale.getDefault().getDisplayLanguage();
+        //Locale.setDefault();
     }
 
     public void recursos() {
